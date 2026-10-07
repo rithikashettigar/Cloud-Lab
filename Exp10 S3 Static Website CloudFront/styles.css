@@ -1,0 +1,13 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Segoe UI", Arial, sans-serif; background: #f4f6fb; color: #1d2433; min-height: 100vh; display: flex; flex-direction: column; }
+header { background: linear-gradient(120deg, #232f3e, #37475a); color: #fff; padding: 48px 24px; text-align: center; }
+header h1 { font-size: 2.4rem; letter-spacing: .5px; }
+header .sub { margin-top: 8px; color: #ff9900; font-size: 1.1rem; }
+main { flex: 1; max-width: 960px; margin: 32px auto; padding: 0 16px; width: 100%; }
+.card { background: #fff; border-left: 6px solid #ff9900; border-radius: 8px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.card h2 { margin-bottom: 8px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-top: 24px; }
+.tile { background: #fff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.tile span { display: inline-block; width: 32px; height: 32px; line-height: 32px; text-align: center; border-radius: 50%; background: #232f3e; color: #ff9900; font-weight: 700; }
+.tile h3 { margin: 10px 0 6px; }
+footer { text-align: center; padding: 18px; background: #232f3e; color: #c9d1d9; font-size: .9rem; }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rithika | Static Website on Amazon S3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Cloud Computing Lab</h1>
+    <p class="sub">Experiment 10 &mdash; Static web application hosted on Amazon S3</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Hello from Amazon S3!</h2>
+      <p>This page is a static website served directly from an S3 bucket with
+         <strong>static website hosting</strong> enabled, and delivered worldwide through
+         <strong>Amazon CloudFront</strong>.</p>
+    </section>
+
+    <section class="grid">
+      <div class="tile"><span>1</span><h3>S3 Bucket</h3><p>Stores index.html, styles.css and error.html.</p></div>
+      <div class="tile"><span>2</span><h3>Bucket Policy</h3><p>Grants public read on the website files only.</p></div>
+      <div class="tile"><span>3</span><h3>CloudFront</h3><p>CDN in front of S3, HTTP redirected to HTTPS.</p></div>
+      <div class="tile"><span>4</span><h3>Signed URL</h3><p>Private files are reachable only through a time-limited signed URL.</p></div>
+    </section>
+  </main>
+
+  <footer>Submitted by Rithika &middot; Cloud Computing Lab (2022 Scheme)</footer>
+</body>
+</html>
